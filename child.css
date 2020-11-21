@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body{
+  background-image: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Merriweather', serif;
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav ul li{
+    padding: 15px 10px;
+    cursor: pointer;
+  }
+  nav ul li:hover{
+    transform: scale(1.1);
+  }
+  .home{
+    background-color: purple;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  margin-left: 645px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;   
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(37) 1s 1 normal both,
+             blinkTextCursor 500ms steps(37) infinite normal;
+             font-family: 'Anonymous Pro', monospace;  
+             font-weight: 500;
+             color: darkblue;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 240px;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: black;}
+  to{border-right-color:white;}
+}
+p{
+  font-size: 25px;
+  padding-left: 4%;
+  padding-bottom: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: darkred;
+  font-weight: normal;
+}
+#video{
+  align-items: center;
+  margin-left: 400px;
+  padding-bottom: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+#toop{
+  padding-right: 65%;
+  margin-right: 30px;
+  width: 40px;
+  }
+  #toop:hover{
+    cursor: pointer;
+  }
+  @media only screen and (max-width:600px){
+    nav{
+      width: 100%;
+      font-size: 9px;
+  }
+  .line-1{
+    font-size: 20px;
+  }
+  #main{
+    margin-left: 130px;
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+  }
+  #toop{
+    display: none;
+  }
+}

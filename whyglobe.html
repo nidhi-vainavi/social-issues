@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global WARMING</title>.
+    <link rel="stylesheet" href="whyglobe.css">
+</head>
+<body>
+    <nav>
+        <ul id="top-btn">
+  <li class="home"><a href="index.html">HOME</a></li>
+  <li class="home1"><a href="globalwarming.html">GLOBAL WARMING</a></li>
+  <li class="home2"><a href="child.html">CHILD LABOUR</a> </li>
+  <li class="home3" > <a href="abt.html">ABOUT</a> </li>
+  </ul>
+  </nav>
+  <h1>Why do Global Warming occur?</h1>
+
+  <p class="why"> <u> 1. Burning fossil fuels </u><br>
+    When we burn fossil fuels like coal, oil and gas to create electricity or power our cars, we release CO2 pollution into the atmosphere.
+    Australians are big producers of CO2 pollution compared to the rest of the world. Our level of CO2 pollution per person is nearly double the average of other developed nations and more than four times the world average.
+    Electricity generation is the main cause of carbon pollution in Australia as 73% of our electricity comes from burning coal and 13% from burning gas. The remaining 14% comes from renewable energy sources such as hydro, solar and wind, which do not emit carbon. <br><br>
+   <u> 2. Agriculture & Farming </u> <br>
+Animals, particularly livestock like sheep and cattle, produce methane, a greenhouse gas. When livestock are grazed at a large scale, as in Australia, the amount of methane produced is a big contributor to global warming.
+Some fertilisers that farmers use also release nitrous oxide, which is another greenhouse gas.
+Australian farming contributes 16% of our total greenhouse gas emissions. <br><br>
+ <u> 3. Deforestation & Tree-Clearing </u> <br>
+Plants and trees play an important role in regulating the climate because they absorb carbon dioxide from the air and release oxygen back into it. Forests and bushland act as carbon sinks and are a valuable means of keeping global warming to 1.5°C.
+But humans clear vast areas of vegetation around the world for farming, urban and infrastructure development or to sell tree products such as timber and palm oil. When vegetation is removed or burnt, the stored carbon is released back into the atmosphere as CO2, contributing to global warming.
+Up to one-fifth of global greenhouse gas pollution comes from deforestation and forest degradation.
+  </p>
+  <hr> 
+  <h2>Why is climate change happening and what are the causes?</h2>
+  <p class="climate">There are many “natural” and “anthropogenic” (human-induced) factors that contribute to climate change. Climate change has always happened on Earth, which is clearly seen in the geological record; it is the rapid rate and the magnitude of climate change occurring now that is of great concern worldwide. Greenhouse gases in the atmosphere absorb heat radiation. Human activity has increased greenhouse gases in the atmosphere since the Industrial Revolution, leading to more heat retention and an increase in surface temperatures. Atmospheric aerosols alter climate by scattering and absorbing solar and infrared radiation and they may also change the microphysical and chemical properties of clouds. Finally, land-use changes, such as deforestation have led to changes in the amount of sunlight reflected from the ground back into space (the surface albedo).</p>
+
+    <div id="GWmap">
+        <div class="img-magnifier-container">
+           <img id="myimage" src="https://eoimages.gsfc.nasa.gov/images/imagerecords/145000/145167/india_geos5_2019161.png"
+             width="400" height="300">
+         </div>
+       </div>
+
+
+       <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="globalwarming.html">Home</a>
+        <a href="whatglobe.html">What </a>
+        <a href="whyglobe.html">Why</a>
+        <a href="prevent.html">Prevention</a>
+      </div>
+      
+      <p></p>
+
+      <div id="main">
+        <span class="home-menu" style="font-size:30px;cursor:pointer" onclick="MenuNav()">&#9776; Menu</span>
+      </div>
+      <a href="#top-btn"><img id="toop" class="text" src="./Assets/back-btn-removebg-preview.png" alt=""> </a> <br> <br><br>
+         <script src="whyglobe.js"></script>
+</body>
+<style>
+    .img-magnifier-container {
+      position: relative;
+    }
+  
+    .img-magnifier-glass {
+      position: absolute;
+      border: 3px solid #000;
+      border-radius: 50%;
+      cursor: none;
+      width: 120px;
+      height: 120px;
+      margin-left: 390px;
+      margin-top: 60px;
+    }
+    #myimage{
+      margin-left: 390px;
+      height: 300px;
+      margin-top: 80px;
+      padding-right: 3%;
+      width: 400px;
+      padding-bottom: 3%;
+    }
+  </style>
+  
+  <script>
+    /* Initiate Magnify Function
+    with the id of the image, and the strength of the magnifier glass:*/
+    magnify("myimage", 2.5);
+  </script>
+</html>

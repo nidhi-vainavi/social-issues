@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    margin-top: -10px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav ul li{
+    padding: 15px 10px;
+    cursor: pointer;
+  }
+  .home{
+    background-color:darkred;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 200px;
+}
+#git{
+    position: relative;
+    margin-bottom: 20px;
+}
+#git:hover{
+    cursor: pointer;
+}
+div{
+    border: 2px solid black;
+    width: 200px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: block;
+    margin-left: 539px;
+    background-color: white;
+}
+#about-me{
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 28px;
+    font-family: cursive;
+    color: black;
+}
+div:hover{
+    transform: scale(1.1);
+    border: 3px solid blueviolet;
+}
+body{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-image: url("https://thumbs.dreamstime.com/t/blurred-soft-pink-blue-gradient-colorful-light-shade-bokeh-background-abstract-pastel-color-119377270.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-family: sans-serif;
+    color: black;
+}
+hr{
+    align-items: center;
+    width: 400px;
+    margin-left: 490px;
+    border-top: 2px solid black;
+    margin-top: 20px;
+   }
+   h5{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 1%;
+   }
+@media only screen and (max-width:600px){
+    h1{
+font-size: 14px;
+    }
+    nav{
+        width: 100%;
+        font-size: 12px;
+    }
+    hr{
+        display: none;
+    }
+    #git{
+        margin-left: 2px;
+    }
+    div{
+        margin-left: 90px;
+    }
+    #about-me{
+        font-size: 19px;
+    }
+    body{
+        background-image: url("https://thumbs.dreamstime.com/t/blurred-soft-pink-blue-gradient-colorful-light-shade-bokeh-background-abstract-pastel-color-119377270.jpg");
+        background-size: cover;
+        
+    }
+}

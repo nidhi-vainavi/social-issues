@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+      }
+      
+      nav{
+        background-color: black;
+        height: 50px;
+        margin-top: -10px;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+      }
+      nav ul li{
+        padding: 15px 10px;
+        cursor: pointer;
+      }
+      .home{
+        background-color: limegreen;
+        height: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .home1{
+      background-color: cyan;
+    }
+    .home2{
+      background-color: cyan;
+    }
+    .home3{
+      background-color: cyan;
+    }
+    .home4{
+      background-color: cyan;
+    }
+    #main{
+      margin-top: -555px;
+    }
+    h1{
+        margin-top: 100px;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    body{
+      font-family: 'PT Serif', serif;
+      padding-bottom: 5%;
+    }
+    body{
+      background-image: url("https://i.pinimg.com/originals/7a/ce/fc/7acefc7b83fa18180ad51a86ae3794b1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    @media screen and (max-width: 600px) {
+      nav{
+        width: 100%;
+        font-size: 10px;
+    }
+    body{
+      background-image: url("https://image.freepik.com/free-photo/soft-cloudy-pastel-gradient-background_6529-1915.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 100vw;
+      height: 200vh;
+    }
+    h1{
+      font-size: 30px;
+    }
+    #main{
+      margin-left: 100px;
+      margin-top: -730px;
+    }
+    }

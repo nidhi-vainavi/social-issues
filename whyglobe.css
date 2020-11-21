@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Sura&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+body{
+  background-image: url("https://cdn.statically.io/img/thumbs.dreamstime.com/t/rainbow-pastel-gradient-wallpaper-background-yellow-maximum-blue-purple-pale-cyan-tulip-melon-magic-mint-colors-135526143.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Sura', serif;
+
+}
+nav{
+  background-color: black;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul li{
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.home{
+  background-color: purple;
+}
+a{
+  text-decoration: none;
+  color: cornsilk;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main{
+  margin-left: 600px;
+  padding-bottom: 3%;
+  margin-top: -1780px;
+  position: absolute;
+}
+h1 {
+   font-family: 'Merriweather', serif;
+   color: navy;
+   text-align: center;
+   margin-top: 100px;
+   font-size: 50px;
+   }
+h1:hover {
+ text-decoration: underline;
+ color: maroon;
+ cursor: pointer;
+ }
+ .why{
+   padding-right: 2%;
+   padding-left: 3%;
+   margin-top: 30px;
+   font-size: 23px;
+   color: darkmagenta;
+ }
+ h2{
+  padding-right: 2%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  font-size: 30px;
+  color: darkred;
+ }
+ .climate{
+  padding-right: 2%;
+  padding-left: 3%;
+  padding-bottom: 3%;
+  font-size: 23px;
+  color: darkred;
+ }
+ hr{
+  align-items: center;
+  width: 400px;
+  margin-left: 490px;
+  border-top: 2px solid black;
+  margin-top: 20px;
+ }
+ #toop{
+  padding-right: 65%;
+  margin-right: 30px;
+  width: 40px;
+  }
+  #toop:hover{
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px) {
+    nav{
+      width: 100%;
+      font-size: 10px;
+  }
+  #toop{
+    display: none;
+  }
+  hr{
+    display: none;
+  }
+  .why{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  #main{
+    margin-top: -3291px;
+    margin-left: 100px;
+  }
+  h2{
+font-size: 25px;
+  }
+  .img-magnifier-container {
+    position: relative;
+  }
+
+  .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+  #myimage{
+    margin-left: 50px;
+    height: 300px;
+    margin-top: 80px;
+    padding-right: 3%;
+    width: 300px;
+    padding-bottom: 3%;
+  }
+}
